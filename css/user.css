@@ -1,0 +1,67 @@
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px;
+}
+
+tbody td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+tbody td form button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+tbody td form button[type="submit"]:hover {
+  background-color: #666;
+}
+
+tbody td form input[type="text"],
+tbody td form input[type="email"],
+tbody td form input[type="password"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+tbody td form input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+tbody td form input[type="submit"]:hover {
+  background-color: #666;
+}
